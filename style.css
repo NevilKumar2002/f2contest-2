@@ -1,0 +1,154 @@
+*{
+    background-color: black;
+    width:100vw;
+
+    /* color:white;*/
+}
+input{
+    width:30vw;
+    height:7vh;
+    color:white;
+    padding:10px;
+    margin:30px;
+}
+.input-container{
+    /* border:2px solid red; */
+    width:100vw;
+    height:30vh;
+    /* margin:20px; */
+    padding-bottom:20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color:pink !important; */
+}
+.row{
+    padding:50px;
+}
+#add-button{
+    width:30vw;
+    height:7vh;
+    margin:50px;
+    text-align: center;
+    background-color: dark;
+    padding-left: 100px !important;
+}
+button{
+    width:40vw;
+    height:7vh;
+    /* margin:20px; */
+    font-size:30px;
+    text-align: center;
+    padding:5px !important;
+
+}
+.search-input{
+    width:90vw;
+    margin:20px;
+    height:7vh;
+    font-size: 20px;
+    padding-left:50px;
+}
+
+/* th, tr{
+    border-right: 2px solid white;
+    text-align: center;
+    width:auto;
+  
+} 
+ thead{
+   height:10vh;
+    color:white;
+    position:static;
+    top:10px;
+    border:2px solid white !important;
+    width:90vw !important;
+}
+
+ th, td ,tr{
+    
+        border: 2px solid black;
+        text-align: center;
+       
+   } 
+   td{
+       border-style: none;
+       color:white;
+   }
+   thead{
+    width:90vw;
+    height:100px;
+    border:2px solid red !important;
+    color:black !important;
+    position: relative;
+    top:10px;
+   }
+   table{
+       width:90vw !important;
+       height:70vh !important;
+       border:2px solid black;
+       margin-left:50px;
+   }
+   thead{
+       height:10vh;
+       width:90vw !important;
+   }
+   tbody{
+    width:90vw;
+    height:50vh;
+    border:2px solid black;
+   } */
+   
+
+   #table{
+    border:2px solid red;
+    padding:20px;
+    color:white;
+    font-size: 20px;
+   
+    background-color: black !important;
+
+   }
+  .edit{
+    width:100px;
+    height:50px;
+    padding:0px;
+    border:2px solid red;
+    position: relative;
+    top:auto;
+    /* left:1200px; */
+    display:none ;
+  }
+  .edit-image{
+    width:25px;
+    height:25px;
+    padding:0px;
+  }
+   
+   
+   tbody{
+   
+    border-top:2px solid red !important;
+    text-align:center;
+   }
+   th{
+    border-right:2px solid red !important;
+    color: white !important;
+    text-align:center !important;
+   }
+   tr{
+    border-bottom:2px solid red !important;
+    height:100px;
+   }
+   td{
+    border-right:2px solid red !important;
+    color: white !important;
+    text-align:center !important;
+    border-left:2px solid red !important;
+    border-bottom:2px solid red !important;
+   }
+   .button2{
+    width:50px;
+    height:30px;
+
+   }
